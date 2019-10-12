@@ -1,6 +1,6 @@
 [submodule "apps/fifo"]
 	path = apps/fifo
-	url = git@github.com:mkfifo/fifo.git
+	url = https://github.com/mkfifo/fifo.git
 [submodule "apps/mkfifo"]
 	path = apps/mkfifo
-	url = git@github.com:mkfifo/mkfifo.git
+	url = https://github.com/mkfifo/mkfifo.git
