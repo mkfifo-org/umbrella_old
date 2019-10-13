@@ -10,7 +10,7 @@ tasks:
 # Install front-end dependencies
 - init: cd apps/mkfifo/assets && npm install && node node_modules/webpack/bin/webpack.js --mode development
 # Install dependencies
-- init: mix deps.get && mix deps.compile && psql --command "CREATE USER postgres WITH SUPERUSER PASSWORD 'postgres';" && mix ecto.create
+- init: mix deps.get && psql --command "CREATE USER postgres WITH SUPERUSER PASSWORD 'postgres';" && mix deps.compile && mix ecto.create
   command: iex -S mix phx.server
 
 vscode:
